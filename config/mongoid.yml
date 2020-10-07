@@ -1,0 +1,6 @@
+development:
+  clients:
+    default:
+      uri: mongodb+srv://training-app1:<%= ENV["MONGODB_PASSWORD"] %>@cluster0.leiha.mongodb.net/blog?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
